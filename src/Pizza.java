@@ -1,2 +1,4 @@
-public class Pizza {
+public interface Pizza
+{
+    public String makePizza();
 }
