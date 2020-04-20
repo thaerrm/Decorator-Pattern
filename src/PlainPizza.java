@@ -1,2 +1,3 @@
-public class PlainPizza {
+public class PlainPizza
+{
 }
