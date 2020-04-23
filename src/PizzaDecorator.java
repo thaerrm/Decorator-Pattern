@@ -1,6 +1,7 @@
 abstract class PizzaDecorator implements Pizza
 {
     protected Pizza pizza;
+
     public PizzaDecorator( Pizza pizza )
     {
         this.pizza = pizza;
@@ -11,6 +12,9 @@ abstract class PizzaDecorator implements Pizza
         return pizza.makePizza();
     }
 
-
-    public
+    public String makePizza()
+    {
+        return pizza.makePizza();
+    }
+}
 }
