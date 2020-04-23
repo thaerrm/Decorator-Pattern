@@ -12,9 +12,4 @@ abstract class PizzaDecorator implements Pizza
         return pizza.makePizza();
     }
 
-    public String makePizza()
-    {
-        return pizza.makePizza();
     }
-}
-}
