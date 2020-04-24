@@ -1,4 +1,4 @@
 public interface Pizza
 {
-    public String makePizza();
+    String makePizza();
 }
