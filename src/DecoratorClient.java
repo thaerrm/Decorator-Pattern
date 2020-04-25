@@ -10,7 +10,7 @@ public class DecoratorClient
         System.out.println("\n'" + chickenPizza + "' using ChickenPizzaDecorator");
 
         String vegPizza = new VeggiePizzaDecorator(plainPizzaObj).makePizza();
-        System.out.println("\n'" + veggiePizza + "' using VeggiePizzaDecorator");
+        System.out.println("\n'" + makeveggiePizza + "' using VeggiePizzaDecorator");
 
     }
 

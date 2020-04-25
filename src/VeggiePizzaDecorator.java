@@ -7,7 +7,7 @@ public class VeggiePizzaDecorator {
             this.pizza = pizza;
         }
 
-        public String makeVeggiePizza()
+        public String makeVeggiePizza();
 
         {
 
