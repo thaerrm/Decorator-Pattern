@@ -3,7 +3,7 @@ public class DecoratorClient
 
     public static void main(String[] args) {
 
-       m PlainPizza plainPizzaObj = new PlainPizza();
+        PlainPizza plainPizzaObj = new PlainPizza();
 
         String plainPizza = plainPizzaObj.makePizza();
         System.out.println(plainPizza);
