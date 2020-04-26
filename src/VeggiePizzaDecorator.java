@@ -2,16 +2,16 @@ public class VeggiePizzaDecorator {
 
     protected VeggiePizzaDecorator pizza;
     {
-        public VeggiePizzaDecorator(Pizza pizza)
+         public VeggiePizzaDecorator(Pizza pizza)
         {
             this.pizza = pizza;
         }
 
-        public String makeVeggiePizza();
+        public String veggiePizza();
 
         {
 
-            return pizza.makeVeggiePizza();
+            return pizza.veggiePizza();
     }
 
 
