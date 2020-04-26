@@ -1,20 +1,19 @@
-public class BarbequePizzaDecorator {
+public class BarbequePizzaDecorator extends PizzaDecorator
+{
 
-    protected BarbequePizzaDecorator pizza;
+    public BarbequePizzaDecorator( Pizza pizza )
     {
-         public BarbequePizzaDecorator(Pizza pizza)
-        {
-            this.pizza = pizza;
-        }
+        super(pizza);
+    }
 
-        public String BarbequePizza();
-
-        {
-
-            return pizza.BarbequePizza();
-        }
-
+    public String makePizza()
+    {
+        return pizza.makePizza() + addBarbeque();
 
     }
+
+    private String addBarbeque()
     {
+        return "with Barbeque sauce added ";
+    }
 }

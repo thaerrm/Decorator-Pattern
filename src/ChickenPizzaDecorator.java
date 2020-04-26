@@ -1,7 +1,19 @@
-public class ChickenPizzaDecorator {
+public class ChickenPizzaDecorator extends PizzaDecorator
+{
 
+    public ChickenPizzaDecorator( Pizza pizza )
     {
-    public ChickenPizzaDecorator();
+        super(pizza);
     }
 
+    public String makePizza()
+    {
+        return pizza.makePizza() + addChicken();
+
+    }
+
+    private String addChicken()
+    {
+        return "with Chicken added";
+    }
 }

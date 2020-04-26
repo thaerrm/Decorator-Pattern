@@ -1,9 +1,10 @@
-public class PlainPizza
+public class PlainPizza implements Pizza
 {
-        public String makePizza()
 
+    @Override
+    public String makePizza()
 
-        {
-            return "Plain Pizza ";
-        }
+    {
+        return "Plain Pizza with mozarella cheese and tomato ";
+    }
 }

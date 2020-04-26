@@ -8,11 +8,14 @@ public class DecoratorClient
         String plainPizza = plainPizzaObj.makePizza();
         System.out.println(plainPizza);
 
-        String chickenPizza = new ChickenPizzaDecorator(plainPizzaObj).makePizza();
-        System.out.println("\n'" + chickenPizza + "' using ChickenPizzaDecorator");
+        String beefmeatballPizza = new BeefMeatballPizzaDecorator(plainPizzaObj).makePizza();
+        System.out.println("\n'" + beefmeatballPizza + " using BeefMeatballPizzaDecorator");
 
-        String veggiePizza = new VeggiePizzaDecorator(plainPizzaObj).makePizza();
-        System.out.println("\n'" + veggiePizza + "' using VeggiePizzaDecorator");
+        String chickenPizza = new ChickenPizzaDecorator(plainPizzaObj).makePizza();
+        System.out.println("\n'" + chickenPizza + " using ChickenPizzaDecorator");
+
+        String barbequePizza = new BarbequePizzaDecorator(plainPizzaObj).makePizza();
+        System.out.println("\n'" + barbequePizza + " using BarbequePizzaDecorator");
 
     }
 
