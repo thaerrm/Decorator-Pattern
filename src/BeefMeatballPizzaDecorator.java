@@ -2,8 +2,9 @@ public class BeefMeatballPizzaDecorator extends PizzaDecorator
 {
 
     public BeefMeatballPizzaDecorator( Pizza pizza )
+
     {
-        super(pizza);
+        super(pizza); //super invokes the parent class
     }
 
     public String makePizza()

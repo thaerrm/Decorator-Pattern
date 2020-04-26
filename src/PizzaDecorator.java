@@ -1,8 +1,8 @@
-abstract class PizzaDecorator implements Pizza
+abstract class PizzaDecorator implements Pizza //base for the subclasses
 {
-    protected Pizza pizza;
+    protected Pizza pizza;  //allows access from bbq, chicken, beefmeatball class
 
-    public PizzaDecorator( Pizza pizza )
+    public PizzaDecorator(Pizza pizza) //the interface
     {
         this.pizza = pizza;
     }
