@@ -7,7 +7,7 @@ abstract class PizzaDecorator implements Pizza //base for the subclasses
         this.pizza = pizza;
     }
 
-    public String makePizza()
+    public String makePizza() //will make the pizzas
     {
         return pizza.makePizza();
     }
