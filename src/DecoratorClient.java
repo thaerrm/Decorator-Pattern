@@ -9,13 +9,13 @@ public class DecoratorClient
         System.out.println(plainPizza);
 
         String beefmeatballPizza = new BeefMeatballPizzaDecorator(plainPizzaObj).makePizza();
-        System.out.println("\n'" + beefmeatballPizza + " using BeefMeatballPizzaDecorator");
+        System.out.println("\n'" + beefmeatballPizza + " using BeefMeatballPizzaDecorator"); //next output
 
         String chickenPizza = new ChickenPizzaDecorator(plainPizzaObj).makePizza();
-        System.out.println("\n'" + chickenPizza + " using ChickenPizzaDecorator");
+        System.out.println("\n'" + chickenPizza + " using ChickenPizzaDecorator");  //next output
 
         String barbequePizza = new BarbequePizzaDecorator(plainPizzaObj).makePizza();
-        System.out.println("\n'" + barbequePizza + " using BarbequePizzaDecorator");
+        System.out.println("\n'" + barbequePizza + " using BarbequePizzaDecorator"); //next output
 
     }
 

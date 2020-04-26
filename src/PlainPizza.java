@@ -1,7 +1,7 @@
 public class PlainPizza implements Pizza
 {
 
-    @Override
+    @Override //because the Pizza method will be redefined
     public String makePizza()
 
     {
